@@ -68,25 +68,17 @@ TaskManager.defineTask('GEOFENCE_TRACKING', ({ data: { eventType, region }, erro
 //Registering locations
 Location.startGeofencingAsync('GEOFENCE_TRACKING', [
   {
-    identifier: "Random Location",
-    latitude: 15.548,
-    longitude: -87.998,
-    radius: 100,
-    notifyOnEnter: true,
-    notifyOnExit: false,
-  },
-  {
     identifier: "Iglesia Catolica Corazon de Maria",
-    latitude: 15.548,
-    longitude: -88.001,
+    latitude: 15.5491,
+    longitude: -88.0006,
     radius: 100,
     notifyOnEnter: true,
     notifyOnExit: false,
   },
   {
     identifier: "Iglesia GERIZIM",
-    latitude: 15.548,
-    longitude: -88.001,
+    latitude: 15.5474,
+    longitude: -88.0003,
     radius: 100,
     notifyOnEnter: true,
     notifyOnExit: false,
